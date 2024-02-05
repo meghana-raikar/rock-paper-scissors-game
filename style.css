@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vw;
+    width: 100vw;
+    background-image: linear-gradient( to top right,rgba(242, 113, 135, 0.71) 30%,  rgba(0, 255, 251, 0.512) ,rgba(255, 255, 0, 0.436) );
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 100vw;
+    color: rgba(35, 24, 24, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:monospace;
+    font-size: 50px;
+
+}
+
+.choices {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.box{
+    height: 200px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 50% ;
+    padding: 10px;
+    background-color: rgb(44, 41, 41);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box:hover {
+    opacity: 0.5;
+ 
+   
+}
+
+#rock {
+    background-image: url("/rock-paper-scissors-game/images/image1x1.jpg");
+    background-position: center right 10px ;
+}
+
+#paper {
+    background-image: url("/rock-paper-scissors-game/images/image3x1.jpg");
+    background-position: center left 10px;
+}
+
+#scissor {
+    background-image: url("/rock-paper-scissors-game/images/image2x1.jpg");
+    background-position: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+.message {
+    margin-top: 3rem;
+}
+
+.msgout {
+    background-color: black;
+    color :white;
+   font-size: 3rem;
+   display: inline;
+   padding: 1rem;
+   border-radius: 1rem;
+}
+.msgout:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
